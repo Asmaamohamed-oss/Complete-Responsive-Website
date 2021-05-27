@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Ranga:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title> Complete Responsive Website</title>
+</head>
+<body>
+
+    <header id ="header-nav">
+        <a href="#" class="logo"> Food<span>.</span></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="nav" id = "nav-menu">
+        </ul>
+
+
+    </header>
+
+    <!-- Home section-->
+    <section class="banner" id= "banner" data-nav="Home">
+        <div class="content"> 
+            <h2> Alaways Choose Good </h2>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Esse quibusdam maxime, illo ea dicta suscipit reprehenderit iure!
+       </p>
+        <button class="btn"> Our Menu</button>
+        </div>
+    </section>
+
+    <!-- About sectio-->
+<section id ="about" data-nav="About" >
+    <h2 class="title-text"> <span> A</span>bout Us</h2>
+    <div class="about-content">
+        <div class="col-50">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aut harum ex perspiciatis tenetur similique totam laborum repellat
+ modi ipsum ab at officia sequi enim ad, voluptatibus qui <br><br>laboriosam omnis! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Iure quidem debitis reiciendis, dolores a corporis repellat libero voluptates porro tenetur temporibus earum exercitationem expedita sequi
+ officia eligendi consectetur consequuntur voluptate? <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem facere nihil pariatur 
+ corporis dolore eveniet repellat veniam id aut officiis, nam harum? Maiores quod sapiente autem consequatur perspiciatis voluptatum earum.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br><br> Labore magni nostrum eveniet iure harum officiis deserunt delectus ipsa dolores,
+     explicabo cupiditate architecto, sit a voluptatem. Reiciendis porro voluptatibus minus ex.
+
+        </div>
+
+        <div class="col-50">
+        <div class="img">
+            <img src="images/img1.jpg" alt="image" class="scale">
+        </div>
+        </div>
+    </div>
+</section>
+<!-- Menu Section-->
+<section id ="menu" data-nav="Menu">
+    <div class="title">
+        <h2 class="title-text"> Our<span>Menu </span></h2>
+        <p class = "title-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, voluptas.</p>
+    </div>
+    <div class="menu-content">
+
+        <div class="menu-item">
+            <div class="menu-img">
+                <img src="images/menu1.jpg" alt="image" class="scale">
+            </div>
+            <div class="menu-text">
+                <h3> Special Salads</h3>
+            </div>
+        </div>
+
+            <div class="menu-item">
+                <div class="menu-img">
+                    <img src="images/menu2.jpg" alt="image" class="scale">
+                </div>
+                <div class="menu-text">
+                    <h3> Special Soup</h3>
+                </div>
+            </div>
+
+        <div class="menu-item">
+            <div class="menu-img">
+                <img src="images/menu3.jpg" alt="image" class="scale">
+            </div>
+            <div class="menu-text">
+                <h3> Special Pasta</h3>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <div class="menu-img">
+                <img src="images/menu4.jpg" alt="image" class="scale">
+            </div>
+            <div class="menu-text">
+                <h3> Special Salads</h3>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <div class="menu-img">
+                <img src="images/menu5.jpg" alt="image" class="scale">
+            </div>
+            <div class="menu-text">
+                <h3> Special Soup</h3>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <div class="menu-img">
+                <img src="images/menu6.jpg" alt="image" class="scale">
+            </div>
+            <div class="menu-text">
+                <h3> Special Pasta</h3>
+            </div>
+        </div>
+    </div> <!-- menu-content-->
+    <div class="title">
+        <button class="btn"> View All</button>
+    </div>
+
+</section>
+
+<!--  Expert-->
+<section id ="expert" data-nav="Expert">
+    <div class="title">
+        <h2 class="title-text"> Our kitchen<span> E</span>xpert </h2>
+        <p class="title-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="expert-content">
+        <div class="expert-item">
+            <div class="expert-img">
+            <img src="images/expert1.jpg" alt="image">
+            </div>
+            <h3> Someone Famous</h3>
+        </div>
+        <div class="expert-item">
+            <div class="expert-img">
+            <img src="images/expert2.jpg" alt="image">
+            </div>
+            <h3> Someone Famous</h3>
+        </div>
+        <div class="expert-item">
+            <div class="expert-img">
+            <img src="images/expert3.jpg" alt="image">
+            </div>
+            <h3> Someone Famous</h3>
+        </div>
+        <div class="expert-item">
+            <div class="expert-img">
+            <img src="images/expert4.jpg" alt="image">
+            </div>
+            <h3> Someone Famous</h3>
+        </div>
+    </div>
+</section>
+
+<section id ="testemonials" data-nav="Testimonials" >
+    <div class="title white">
+        <h2 class="title-text"> They<span> S</span>aid About Us </h2>
+        <p class="title-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, voluptas.</p>
+    </div>
+    <div class="test-content">
+        <div class="test-item">
+            <div class="test-img">
+                <img src="images/testi1.jpg" alt="image">
+            </div>
+            <div class="test-desc">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     alias accusantium architecto vero, magnam non dolorum.
+                     aspernatur deserunt quaerat est laboriosam itaque possimus.</p>
+                     <h3> Someone Famous</h3>
+            </div>
+        </div>
+
+        <div class="test-item">
+            <div class="test-img">
+                <img src="images/testi2.jpg" alt="image">
+            </div>
+            <div class="test-desc">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     alias accusantium architecto vero, magnam non dolorum.
+                     aspernatur deserunt quaerat est laboriosam itaque possimus.</p>
+                     <h3> Someone Famous</h3>
+            </div>
+        </div>
+
+        <div class="test-item">
+            <div class="test-img">
+                <img src="images/testi3.jpg" alt="image">
+            </div>
+            <div class="test-desc">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     alias accusantium architecto vero, magnam non dolorum.
+                     aspernatur deserunt quaerat est laboriosam itaque possimus.</p>
+                     <h3> Someone Famous</h3>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section id ="contact" data-nav="Contact" > 
+    <div class="title ">
+        <h2 class="title-text"><span> C</span>ontact Us </h2>
+        <p class="title-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="contact-form">
+    <form>
+        <h3>Send Message</h3>
+        <div class="inputBox">
+            <input type="text" placeholder="Name">
+        </div>
+        <div class="inputBox">
+            <input type="email" placeholder="Email">
+        </div>
+        <div class="inputBox">
+            <textarea placeholder="Name"></textarea>
+        </div>
+        <div class="inputBox">
+            <input type="submit" value="Send">
+        </div>
+    </form>
+    </div>
+</section>
+
+
+<div class="copyright">
+    <p> copyright &copy; <span class="date"></span> <a href="#">Asmaa Mohamed.</a> All Right Reserved.</p>
+</div>
+
+<a href="#banner" class="to-Top">
+    <i class="fa fa-arrow-up" aria-hidden="true"></i>
+</a>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
